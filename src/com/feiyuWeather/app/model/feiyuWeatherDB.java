@@ -1,9 +1,10 @@
-package model;
+package com.feiyuWeather.app.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import db.feiyuWeatherOpenHelper;
+import com.feiyuWeather.app.db.feiyuWeatherOpenHelper;
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -83,7 +84,7 @@ public class feiyuWeatherDB {
 	/**
 	 * 将city实例存储搭到数据库
 	 */
-	public void save(City city)
+	public void saveCity(City city)
 	{
 		if(city!=null)
 		{

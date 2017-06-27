@@ -1,4 +1,4 @@
-package db;
+package com.feiyuWeather.app.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -28,7 +28,7 @@ public class feiyuWeatherOpenHelper extends SQLiteOpenHelper{
 	 *County±ÌΩ®±Ì”Ôæ‰
 	 */
     public static final String CREATE_COUNTY="create table County ("
-    		+"id integer primary ksy autoincrement,"
+    		+"id integer primary key autoincrement,"
     		+"county_name text,"
     		+"county_code text,"
     		+"city_id integer)";

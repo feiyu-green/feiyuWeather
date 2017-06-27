@@ -1,4 +1,4 @@
-package model;
+package com.feiyuWeather.app.model;
 
 public class City {
 private int id;
