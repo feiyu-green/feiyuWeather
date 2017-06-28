@@ -17,6 +17,29 @@
             android:textColor="#fff"
             android:textSize="24sp"
             />
+       
+          <Button
+            android:id="@+id/refresh_weather"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/refresh"
+            
+            />
+
+          <Button
+              android:id="@+id/switch_city"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:layout_alignBaseline="@+id/city_name"
+              android:layout_alignBottom="@+id/city_name"
+              android:layout_alignParentLeft="true"
+              android:layout_centerVertical="true"
+              android:layout_marginLeft="16dp"
+              android:background="@drawable/home" />
+
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
